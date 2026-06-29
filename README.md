@@ -1,4 +1,4 @@
-# ASCE-SAR YOLO11 Delivery
+# ASCE-SAR Delivery
 
 This repository is a clean delivery version of the ASCE-SAR model for SAR object detection experiments. It keeps the Ultralytics runtime needed to train and evaluate the delivered model, plus the custom modules used by the paper configuration.
 
@@ -104,7 +104,7 @@ ultralytics/cfg/models/11/yolo11-ADown-Backbone-SOEP1EMA-SWC-DySample-fixed.yaml
 
 ## Project Scope
 
-This delivery package intentionally removes unrelated experimental modules, extra YAML files, pretrained weights, datasets, examples, and temporary outputs. It is intended to expose only the model and modules required for reproducing the delivered ASCE-SAR architecture.
+It is intended to expose only the model and modules required for reproducing the delivered ASCE-SAR architecture.
 
 ## License
 
